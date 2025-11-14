@@ -4,154 +4,133 @@ const programmingLanguages: ISkill.Skill = {
   category: 'Programming Languages',
   items: [
     {
-      title: 'C',
-      level: 3,
+      title: 'HTML/CSS',
     },
     {
-      title: 'Shell Scripting',
-      level: 3,
+      title: 'javascript',
     },
     {
-      title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
-      level: 2,
-    },
-    {
-      title: 'Golang',
-      level: 2,
-    },
-    {
-      title: 'Rust',
-      level: 1,
+      title: 'TypeScript',
     },
   ],
 };
 
-const kernelDevelopment: ISkill.Skill = {
-  category: 'Kernel Development',
+const FameworksLibraries: ISkill.Skill = {
+  category: 'Fameworks&Libraries',
   items: [
     {
-      title: 'Kernel Programming',
-      level: 3,
+      title: 'React.js',
     },
     {
-      title: 'GNU Debugger',
-      level: 3,
+      title: 'Node.js',
     },
     {
-      title: 'Memory Management',
-      level: 2,
-    },
-    {
-      title: 'System Call Interface',
-      level: 2,
+      title: 'Next.js',
     },
   ],
 };
 
-const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
+const ToolsIdes: ISkill.Skill = {
+  category: 'Tools&IDEs',
   items: [
     {
-      title: 'Docker',
-      level: 3,
+      title: 'VS Code',
     },
     {
-      title: 'KVM',
-      level: 3,
+      title: 'Git',
     },
     {
-      title: 'Xen',
-      level: 2,
+      title: 'Github',
     },
     {
-      title: 'VirtualBox',
-      level: 2,
+      title: 'GitLab',
     },
     {
-      title: 'VMware ESXi',
-      level: 1,
+      title: 'SVN',
+    },
+    {
+      title: 'Jira',
+    },
+    {
+      title: 'Confluence',
     },
   ],
 };
 
-const automation: ISkill.Skill = {
-  category: 'Automation',
-  items: [
-    {
-      title: 'Ansible',
-      level: 3,
-    },
-    {
-      title: 'Puppet',
-      level: 3,
-    },
-    {
-      title: 'Chef',
-      level: 2,
-    },
-    {
-      title: 'Jenkins',
-      level: 2,
-    },
-    {
-      title: 'CI/CD Pipelines',
-      level: 1,
-    },
-    {
-      title: 'Infrastructure as Code',
-      level: 1,
-    },
-  ],
-};
+// const automation: ISkill.Skill = {
+//   category: 'Automation',
+//   items: [
+//     {
+//       title: 'Ansible',
+//       level: 3,
+//     },
+//     {
+//       title: 'Puppet',
+//       level: 3,
+//     },
+//     {
+//       title: 'Chef',
+//       level: 2,
+//     },
+//     {
+//       title: 'Jenkins',
+//       level: 2,
+//     },
+//     {
+//       title: 'CI/CD Pipelines',
+//       level: 1,
+//     },
+//     {
+//       title: 'Infrastructure as Code',
+//       level: 1,
+//     },
+//   ],
+// };
 
-const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
-  items: [
-    {
-      title: 'iptables',
-      level: 3,
-    },
-    {
-      title: 'OpenSSH',
-      level: 3,
-    },
-    {
-      title: 'OpenSSL',
-      level: 2,
-    },
-    {
-      title: 'NACLs',
-      level: 2,
-    },
-    {
-      title: 'VPN Technologies',
-      level: 2,
-    },
-    {
-      title: 'Intrusion Detection',
-      level: 1,
-    },
-  ],
-};
+// const networkSecurity: ISkill.Skill = {
+//   category: 'Network Security',
+//   items: [
+//     {
+//       title: 'iptables',
+//       level: 3,
+//     },
+//     {
+//       title: 'OpenSSH',
+//       level: 3,
+//     },
+//     {
+//       title: 'OpenSSL',
+//       level: 2,
+//     },
+//     {
+//       title: 'NACLs',
+//       level: 2,
+//     },
+//     {
+//       title: 'VPN Technologies',
+//       level: 2,
+//     },
+//     {
+//       title: 'Intrusion Detection',
+//       level: 1,
+//     },
+//   ],
+// };
 
 const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
     {
-      title: 'Coffee Brewing',
+      title: 'Football',
     },
     {
-      title: "Rubik's Cube Solving",
+      title: 'Running',
     },
     {
       title: 'Table Tennis',
     },
     {
-      title: 'Guitar Playing',
+      title: 'Base Guitar Playing',
     },
     {
       title: 'Joke Telling',
@@ -164,15 +143,8 @@ const misc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    kernelDevelopment,
-    virtualization,
-    automation,
-    networkSecurity,
-    misc,
-  ],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  skills: [programmingLanguages, FameworksLibraries, ToolsIdes, misc],
+  // tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
 export default skill;

@@ -5,45 +5,33 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
-      title: 'Linux Foundation',
+      title: 'BSTONES',
       positions: [
         {
-          title: 'System Engineer',
-          startedAt: '1996-05',
+          title: 'Frontend Developer',
+          startedAt: '2020-09',
+          endedAt: '2025-06',
           descriptions: [
-            'Steering Kernel patching and updates for various distributions',
-            'Automating deployment and integration processes for Linux servers',
-            'Spearheading initiatives to enhance Linux kernel security',
-            'Collaborating with global developers to coordinate code contributions',
+            '대기업 및 브랜드 캠페인, 커머스 웹사이트 등 다양한 프로젝트의 프론트엔드 개발 담당',
+            'HTML, SCSS, JavaScript 기반 퍼블리싱 및 인터랙션 구현',
+            'React, Next.js 환경에서 컴포넌트 단위 UI 설계 및 구축',
+            '다양한 클라이언트 요구사항에 맞춘 반응형, 접근성 중심의 구조 설계',
+            '디자이너·백엔드 개발자와의 협업을 통한 일정 관리 및 품질 유지',
           ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Security', 'Automation'],
-        },
-        {
-          title: 'System Engineer Intern',
-          startedAt: '1996-02',
-          endedAt: '1996-05',
-          descriptions: [
-            'Assisted senior engineers in maintaining and updating kernel patches for Linux distributions',
-            'Supported deployment and integration tasks for Linux server environments',
-            'Conducted research on Linux kernel security practices and presented findings to the team',
+          skillKeywords: [
+            'HTML',
+            'SCSS',
+            'JavaScript',
+            'React',
+            'Next.js',
+            'TypeScript',
+            'Tailwind CSS',
+            'AEM',
+            'Git',
+            'GitLab',
+            'SVN',
+            'Jira',
           ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Support', 'Research'],
-        },
-      ],
-    },
-    {
-      title: 'Open Source Community',
-      positions: [
-        {
-          title: 'System Advocate and Developer',
-          startedAt: '2010-06',
-          endedAt: '2018-01',
-          descriptions: [
-            'Promoted the use and development of Linux globally.',
-            'Developed automated scripts to streamline system configuration.',
-            'Facilitated live patching systems, reducing downtime.',
-          ],
-          skillKeywords: ['Open Source', 'Linux', 'AWS', 'RDBMS'],
         },
       ],
     },
