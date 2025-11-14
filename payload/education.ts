@@ -8,7 +8,7 @@ const education: IEducation.Payload = {
       title: '고려사이버대학교',
       subTitle: '2026-02 졸업예정',
       startedAt: '2018-03',
-      endedAt: '재학중',
+      endedAt: '2026-02',
     },
     {
       title: 'Seattle Central College',

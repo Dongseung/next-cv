@@ -7,6 +7,9 @@ const programmingLanguages: ISkill.Skill = {
       title: 'HTML/CSS',
     },
     {
+      title: 'jQuery',
+    },
+    {
       title: 'javascript',
     },
     {
@@ -26,6 +29,9 @@ const FameworksLibraries: ISkill.Skill = {
     },
     {
       title: 'Next.js',
+    },
+    {
+      title: 'SCSS(Sass)',
     },
   ],
 };
