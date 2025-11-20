@@ -6,7 +6,7 @@ const title = 'RESUME-NEXTJS Sample Page';
 const description = 'This is a simple web resume sample.';
 
 export const _global: IGlobal.Payload = {
-  favicon: '/favicon.ico',
+  favicon: '/asset/favicon.ico',
   headTitle: title,
   seo: {
     title,

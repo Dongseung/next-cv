@@ -8,7 +8,7 @@ const profile: IProfile.Payload = {
   disable: false,
 
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
-  image: '/cv_profile.jpg',
+  image: '/asset/cv_profile.jpg',
   name: {
     title: '신동승',
     small: '(Owen)',
