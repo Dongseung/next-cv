@@ -2,13 +2,13 @@ import { faEnvelope, faPen, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/cv_profile.jpg';
+// import image from '../asset/cv_profile.jpg';
 
 const profile: IProfile.Payload = {
   disable: false,
 
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
-  image,
+  image: '/cv_profile.jpg',
   name: {
     title: '신동승',
     small: '(Owen)',
