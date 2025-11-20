@@ -22,7 +22,7 @@ function Yosume() {
     <>
       <NextSeo {...Payload._global.seo} />
       <Head>
-        <title>{Payload._global.headTitle}</title>
+        <title>NextJS CV - Dong Seung SHIN</title>
         <link rel="shortcut icon" href={Payload._global.favicon} />
       </Head>
       <Container style={Style.global}>
