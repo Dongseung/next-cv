@@ -26,7 +26,15 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
+      title:
+        'https://next-portfolio-puce-seven.vercel.app/ - Next.js와 Tailwind css를 이용하여 제작한 포트폴리오 샘플페이지',
       link: 'https://next-portfolio-puce-seven.vercel.app/',
+      icon: faPen,
+    },
+    {
+      title:
+        'https://dsshin-portfolio.netlify.app/ - React와 Gsap을 이용하여 제작한 포트폴리오 샘플페이지',
+      link: 'https://dsshin-portfolio.netlify.app/',
       icon: faPen,
     },
     // {

@@ -4,6 +4,198 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'BESPOKE 식기세척기',
+      startedAt: '2024-09',
+      endedAt: '2025-05',
+      where: 'HTML, SCSS, javascript,',
+      descriptions: [
+        {
+          content: '발주처 : PTK (상주)',
+          descriptions: [
+            { content: '반응형 웹페이지' },
+            {
+              content: '식기세척기 구매 페이지 운영',
+            },
+            {
+              content:
+                '식기세척기 찾기 영역 개발(숨은그림 찾기형식), 카톡 공유하기, 찾으면 이벤트 응모권 부여',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: '[공통기획전] 삼성전자 세일 페스타',
+      startedAt: '2024-09',
+      endedAt: '2025-05',
+      where: 'HTML, SCSS, javascript,',
+      descriptions: [
+        {
+          content: '발주처 : PTK (상주)',
+          descriptions: [
+            { content: '반응형 웹페이지' },
+            {
+              content:
+                '연간운영 페이지, 삼성가전 전체 제품 특가 구매페이지 운영 및 바잉툴 시뮬레이터 개발 ',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: '아이스크림몰 및 하이스토어',
+      startedAt: '2024-05',
+      endedAt: '2024-09',
+      where: 'React, next.JS, Typescript, Tailwind css',
+      descriptions: [
+        {
+          content: '발주처 : (주)Plateer (상주)',
+          descriptions: [
+            { content: '반응형 웹페이지' },
+            {
+              content: '선생님들을 위한 학용품 및 사무용품 쇼핑몰',
+            },
+            {
+              content: '솔루션 회사와 협업하면 컴포넌트 개발 및 홈페이지 제작',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: '애드스톰 홈페이지 구축',
+      startedAt: '2024-03',
+      endedAt: '2024-05',
+      where: 'HTML, SCSS, javascript, Gsap',
+      descriptions: [
+        {
+          content: '발주처 : 비스톤스',
+          descriptions: [
+            { content: '반응형 웹페이지' },
+            {
+              content: '자회사 포트폴리오 홈페이지 제작',
+            },
+            {
+              content: 'http://adstorm.co.kr/',
+              href: 'http://adstorm.co.kr/',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: '삼성 AI Life 캠페인',
+      startedAt: '2024-03',
+      endedAt: '2024-05',
+      where: 'HTML, SCSS, javascript',
+      descriptions: [
+        {
+          content: '발주처 : PTK (비상주)',
+          descriptions: [
+            { content: '반응형 이벤트 페이지 제작' },
+            {
+              content: '삼성 AI를 실생활에 적용하는 홍보성 및 이벤트 페이지 제작 및 운영',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: '[삼성 글로벌]AEM컴포넌트 개발 - 에너지 계산기',
+      startedAt: '2024-03',
+      endedAt: '2024-05',
+      where: 'HTML, SCSS, javascript',
+      descriptions: [
+        {
+          content: '발주처 : PTK (비상주)',
+          descriptions: [
+            { content: '반응형 컴포넌트 개발' },
+            {
+              content:
+                '삼성가전 글로벌 페이지마다에 들어가는 가전의 에너지 소비량 및 세이브량등을 계산하고 단계별로 그래프로 보여주는 AEM컴포넌트 개발',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title:
+        '[갤럭시캠퍼스] 갤럭시 S24 어시스트 리뷰어, [갤캠스] 갤럭시북4 런칭, [통합런칭] BESPOKE 냉장고',
+      startedAt: '2024-01',
+      endedAt: '2024-03',
+      where: 'HTML, SCSS, javascript',
+      descriptions: [
+        {
+          content: '발주처 : PTK (상주)',
+          descriptions: [
+            { content: '반응형 페이지' },
+            { content: '월간 운영건, 월단위 페이지 개편' },
+          ],
+        },
+      ],
+    },
+    {
+      title:
+        '에어컨 무풍당당 페스티벌, [통합런칭] 그랑데, [통합런칭] BESPOKE 냉장고, [갤럭시캠퍼스] 갤럭시 S24 어시스트 리뷰어, [갤캠스] 갤럭시북4 런칭, ',
+      startedAt: '2023-09',
+      endedAt: '2023-11',
+      where: 'HTML, SCSS, javascript',
+      descriptions: [
+        {
+          content: '발주처 : PTK (상주)',
+          descriptions: [
+            { content: '반응형 페이지' },
+            { content: '월간 운영건, 월단위 페이지 개편' },
+          ],
+        },
+      ],
+    },
+    {
+      title: '조리기기 위클리 (위클리 조리기기)',
+      startedAt: '2023-09',
+      endedAt: '2023-12',
+      where: 'HTML, SCSS, javascript',
+      descriptions: [
+        {
+          content: '발주처 : PTK (상주)',
+          descriptions: [
+            { content: '반응형 페이지' },
+            { content: '삼성가전 조리기기 통합 페이지 연간운영, 주 단위 다양한 이벤트 리뉴얼' },
+          ],
+        },
+      ],
+    },
+    {
+      title: '삼성닷컴 10주년 구매하기(알림신청)',
+      startedAt: '2023-09',
+      endedAt: '2023-11',
+      where: 'HTML, SCSS, javascript',
+      descriptions: [
+        {
+          content: '발주처 : PTK (상주)',
+          descriptions: [
+            { content: '반응형 페이지' },
+            { content: '삼성닷텀 10주년 기념 이벤트 알림신청 페이지 제작' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'BESPOKE 식기세척기 체험단 페이지',
+      startedAt: '2023-09',
+      endedAt: '2023-12',
+      where: 'HTML, SCSS, javascript',
+      descriptions: [
+        {
+          content: '발주처 : PTK (상주)',
+          descriptions: [
+            { content: '반응형 페이지 월간운영건' },
+            { content: 'BESPOKE 식기세척기 체험단 이벤트 페이지 제작 후 운영' },
+          ],
+        },
+      ],
+    },
+    {
       title: '시간 맞춤 배송',
       startedAt: '2023-09',
       endedAt: '2023-12',
